@@ -1,0 +1,22 @@
+PS C:\Users\user> cd C:\Users\user\Documents
+    ディレクトリ: C:\Users\user\Documents
+
+
+d-----        2024/01/19     22:34                git_challenge                                                   
+
+PS C:\Users\user\Documents> cd C:\Users\user\Documents\git_challenge
+PS C:\Users\user\Documents\git_challenge> git init
+Initialized empty Git repository in C:/Users/user/Documents/git_challenge/.git/
+PS C:\Users\user\Documents\git_challenge> echo "Hello,world！" >> "hello_world.txt"
+PS C:\Users\user\Documents\git_challenge> git add hello_world.txt
+PS C:\Users\user\Documents\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) f17fca2] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\user\Documents\git_challenge> git add hello_world.txt
+PS C:\Users\user\Documents\git_challenge> git commit -m "日本語訳を追加"
+[main 0937894] 日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\user\Documents\git_challenge> git log --oneline
+0937894 (HEAD -> main) 日本語訳を追加
+f17fca2 hello_world.txtを追加
